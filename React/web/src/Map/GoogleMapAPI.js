@@ -1,3 +1,3 @@
-const GoogleMapAPI = 'AIzaSyCA54hI6blCLXItNTOXpx8AImUykaMyMTg'
+const GoogleMapAPI = 'API_Key'
 
 export default GoogleMapAPI
