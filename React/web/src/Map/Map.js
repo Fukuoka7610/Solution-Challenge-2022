@@ -1,6 +1,8 @@
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
+import GoogleMapAPI from "./GoogleMapAPI";
 import React from 'react'
+import SearchBar from '../components/SearchBar/SearchBar'
 
 const containerStyle = {
   width: '100%',
@@ -15,13 +17,9 @@ const center = {
 const Map = () => {
   return (
     <div>
-      Map Page
-      <LoadScript googleMapsApiKey='AIzaSyCA54hI6blCLXItNTOXpx8AImUykaMyMTg'>
-        <GoogleMap
-          mapContainerStyle={containerStyle}
-          center={center}
-          zoom={17}
-        ></GoogleMap>
+      <SearchBar/>
+      <LoadScript googleMapsApiKey={GoogleMapAPI}>
+        <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={17}/>
       </LoadScript>
     </div>
 
