@@ -22,7 +22,7 @@ const Map = () => {
       <SearchBar/>
 
       <div className='map'>
-        <LoadScript googleMapsApiKey='API_Key'>
+        <LoadScript googleMapsApiKey='Key'>
           <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={17}/>
         </LoadScript>
       </div>
