@@ -9,7 +9,7 @@ const NavBar = () => {
         <ul>
             <li><img src={`${process.env.PUBLIC_URL}/logo192.png`} alt=''/></li>
             <li class='nav_home'><Link to='/'>HOME</Link></li>
-            <li class='nav_map'><Link to='/map'>MAP</Link></li>
+            {/* <li class='nav_map'><Link to='/map'>MAP</Link></li> */}
             <li class='nav_search'><Link to='/search'>SEARCH</Link></li>
         </ul>
     </div>
