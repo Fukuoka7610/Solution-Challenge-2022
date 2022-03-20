@@ -32,6 +32,10 @@
     }
 
     .nav_home a:hover{
+        color: yellow;
+    }
+
+    .nav_recruit a:hover{
         color: magenta;
     }
 
@@ -53,8 +57,14 @@
     }
 
     .nav_home a:hover::after{
-        background-color: magenta;
+        background-color: yellow;
         width: 50%;
+        transition: all ease-in-out 250ms;
+    }
+
+    .nav_recruit a:hover::after{
+        background-color: magenta;
+        width: 58%;
         transition: all ease-in-out 250ms;
     }
 
