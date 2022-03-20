@@ -18,7 +18,7 @@ const facilities = [
 const Search = () => {
     return (
         <div>
-            <NavBar img={`${process.env.PUBLIC_URL}/logo192.png`}/>
+            <NavBar img={`${process.env.PUBLIC_URL}/sort-white.svg`}/>
             <button className="button button5" >FILTER</button>
             <div className='picker'>
                 <h3 className='picker_title'>SPORTS</h3>
