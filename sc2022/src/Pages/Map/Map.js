@@ -4,7 +4,7 @@ import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
 //import GoogleMapReact from "google-map-react";
 import React from 'react'
-import SearchBar from '../components/SearchBar/SearchBar'
+import SearchBar from '../../components/SearchBar/SearchBar'
 
 const containerStyle = {
   width: '100%',
