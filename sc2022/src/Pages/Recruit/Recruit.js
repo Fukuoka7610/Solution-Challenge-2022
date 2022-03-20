@@ -4,7 +4,7 @@ import React from 'react'
 const Recruit = () => {
   return (
     <div>
-      <NavBar img={`${process.env.PUBLIC_URL}/logo192.png`}/>
+      <NavBar img={`${process.env.PUBLIC_URL}/place-white.svg`}/>
       Recruit Page
     </div>
   )
