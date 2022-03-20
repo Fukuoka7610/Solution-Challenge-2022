@@ -1,8 +1,12 @@
+import NavBar from '../../components/NavBar/NavBar'
 import React from 'react'
 
 const Recruit = () => {
   return (
-    <div>Recruit</div>
+    <div>
+      <NavBar/>
+      Recruit Page
+    </div>
   )
 }
 

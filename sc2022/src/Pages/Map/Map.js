@@ -2,6 +2,7 @@ import './Map.scss'
 
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
+import NavBar from '../../components/NavBar/NavBar'
 //import GoogleMapReact from "google-map-react";
 import React from 'react'
 import SearchBar from '../../components/SearchBar/SearchBar'
@@ -19,6 +20,7 @@ const center = {
 const Map = () => {
   return (
     <div>
+      <NavBar/>
       <SearchBar/>
 
       <div className='map'>
