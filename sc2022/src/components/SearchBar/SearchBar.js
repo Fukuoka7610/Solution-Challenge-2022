@@ -22,9 +22,12 @@ const SearchBar = () => {
     <div>
       <div className='container-SearchBar'>
         <ul>
+          {/*
           <li>
             <img src={`${process.env.PUBLIC_URL}/magnifying-glass-white.svg`} alt=''/>
           </li>
+          */}
+          
           <li className='search-box'>
             <input className='text' id='form' type='text' placeholder='Search' onKeyPress={ e => formTest(e) }/>
             <div className='btn-container'>
