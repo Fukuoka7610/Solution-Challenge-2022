@@ -20,7 +20,7 @@ const center = {
 const Map = () => {
   return (
     <div>
-      <NavBar/>
+      <NavBar img={`${process.env.PUBLIC_URL}/magnifying-glass-white.svg`}/>
       <SearchBar/>
 
       <div className='map'>

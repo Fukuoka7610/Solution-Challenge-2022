@@ -15,10 +15,10 @@ const facilities = [
     'toilet.jpg', 'toilet.jpg', 'toilet.jpg', 'toilet.jpg',
 ]
 
-const Map = () => {
+const Search = () => {
     return (
         <div>
-            <NavBar/>
+            <NavBar img={`${process.env.PUBLIC_URL}/logo192.png`}/>
             <button className="button button5" >FILTER</button>
             <div className='picker'>
                 <h3 className='picker_title'>SPORTS</h3>
@@ -49,4 +49,4 @@ const Map = () => {
     )
 }
 
-export default Map
+export default Search
