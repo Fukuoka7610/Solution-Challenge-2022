@@ -2,10 +2,10 @@ import './Map.scss'
 
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
-import NavBar from '../../components/NavBar/NavBar'
+import NavBar from '../../common/components/NavBar/NavBar'
 //import GoogleMapReact from "google-map-react";
 import React from 'react'
-import SearchBar from '../../components/SearchBar/SearchBar'
+import SearchBar from '../../common/components/SearchBar/SearchBar'
 
 const containerStyle = {
   width: '100%',

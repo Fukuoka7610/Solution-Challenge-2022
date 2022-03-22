@@ -1,0 +1,35 @@
+.container-form{
+    text-align: center;
+
+    .title{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 22px;
+        font-weight: lighter;
+    }
+
+    .title-form{
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 22px;
+        font-weight: lighter;
+        text-align: center;
+        display: inline-flex;
+        margin: 0 auto;
+        width: 50%;
+        border-radius: 18px;
+        outline: none;
+    }
+}
+
+.clear{
+    width: 2%;
+    font-size: 17px;
+    border-radius: 15px;
+    border: 0;
+    outline: none;
+    color: black;
+    text-align: center;
+    position: inherit;
+    background-color: transparent;
+    transform: translate(-140%, -13%);
+}
+

@@ -1,7 +1,8 @@
 import './Home.scss'
 
-import Card from '../../components/Card/Card'
-import NavBar from '../../components/NavBar/NavBar'
+import Card from '../../common/components/Card/Card'
+import { Link } from 'react-router-dom'
+import NavBar from '../../common/components/NavBar/NavBar'
 import React from 'react'
 
 const Home = () => {
@@ -59,6 +60,15 @@ const Home = () => {
           price='price'
         />
       </div>
+
+      <Link to='/recruit'>
+        <div className='recruit-container'>
+          <input className='recruit-btn' type='button' value='Recruit'/>
+        </div>
+      </Link>
+      
+      <br/>
+
     </div>
   )
 }

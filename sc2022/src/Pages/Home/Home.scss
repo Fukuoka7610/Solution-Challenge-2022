@@ -1,4 +1,4 @@
-$radius: 0.2rem;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 
 body {
   font-family: -apple-system, 'BlinkMacSystemFont', Sans-Serif;
@@ -14,10 +14,31 @@ body {
   justify-content: center;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.recruit-container{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+
+  .recruit-btn{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+    border: 0;
+    border-radius: 18px;
+    box-shadow: 0 0 10px 2px gray;
+    background-color: white;
+    width: 50%;
+  }
+}
+
 @media screen and (min-width:600px){
   .wrapper{
     grid-template-columns: repeat(auto-fit, minmax(14rem, 16rem));
   }
-    
 }
 
