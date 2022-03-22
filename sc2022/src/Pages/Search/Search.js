@@ -1,6 +1,6 @@
 import './Search.scss'
 
-import NavBar from '../../components/NavBar/NavBar'
+import NavBar from '../../common/components/NavBar/NavBar'
 import React from 'react'
 
 const calendar='https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTokyo&showTitle=0&showPrint=0&showCalendars=0&showTz=0&mode=WEEK&src=cnlvaWl6dWthYWRAZ21haWwuY29t&src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23039BE5&color=%230B8043'

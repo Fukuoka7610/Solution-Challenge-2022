@@ -1,5 +1,6 @@
 import './SearchBar.scss'
 
+import Clear from '../../functions/clear'
 import React from 'react'
 
 const clear = () =>{
@@ -31,7 +32,7 @@ const SearchBar = () => {
           <li className='search-box'>
             <input className='text' id='form' type='text' placeholder='Search' onKeyPress={ e => formTest(e) }/>
             <div className='btn-container'>
-              <input className='clear-btn' type='button' value='×' onClick={ (e) => clear() }/>
+              <input className='clear-btn' type='button' value='×' onClick={ Clear }/>
             </div>
           </li>
         </ul>
