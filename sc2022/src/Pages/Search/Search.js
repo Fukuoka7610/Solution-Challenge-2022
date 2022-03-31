@@ -22,7 +22,7 @@ const Search = () => {
             <button className="button button5" >FILTER</button>
             <div className='picker'>
                 <h3 className='picker_title'>SPORTS</h3>
-                    <div class="row">
+                    <div Name="row">
                         {sports.map((sports) => 
                             <div className='column'>
                                 <img src={sports} alt='football' width='50' height='50'/>
@@ -37,7 +37,7 @@ const Search = () => {
 
             <div className='picker'>
                 <h3 className='picker_title'>FACILITIES</h3>
-                <div class="row">
+                <div className="row">
                     {facilities.map((facilities) => 
                         <div className='column'>
                             <img src={facilities} alt='toilet' width='50' height='50'/>

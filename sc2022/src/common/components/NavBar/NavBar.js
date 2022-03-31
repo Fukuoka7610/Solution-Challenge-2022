@@ -8,11 +8,11 @@ const NavBar = (props) => {
     <div id='navbar'>
         <ul>
             {/* <li><img src={`${process.env.PUBLIC_URL}/logo192.png`} alt=''/></li> */}
-            <li><img src={props.img} alt=''/></li>
-            <li class='nav_home'><Link to='/'>HOME</Link></li>
-            <li class='nav_recruit'><Link to='/recruit'>RECRUIT</Link></li>
-            <li class='nav_map'><Link to='/map'>MAP</Link></li>
-            <li class='nav_search'><Link to='/search'>SEARCH</Link></li>
+            <li><img src={ props.img } alt=''/></li>
+            <li className='nav_home'><Link to='/'>HOME</Link></li>
+            <li className='nav_recruit'><Link to='/recruit'>RECRUIT</Link></li>
+            <li className='nav_map'><Link to='/map'>MAP</Link></li>
+            <li className='nav_search'><Link to='/search'>SEARCH</Link></li>
         </ul>
     </div>
   )

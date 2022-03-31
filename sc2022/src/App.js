@@ -1,9 +1,11 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
+import Form from './Pages/Test/Form'
 import Home from './Pages/Home/Home'
 import Map from './Pages/Map/Map'
 import Recruit from './Pages/Recruit/Recruit'
 import Search from './Pages/Search/Search'
+import Test from './Pages/Test/Test'
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
         <Route path='/recruit' element={<Recruit/>}/>
         <Route path='/map' element={<Map/>}/>
         <Route path='/search' element={<Search/>}/>
+        <Route path='/test' element={<Test/>}/>
+        <Route path='/form' element={<Form/>}/>
       </Routes>
     </BrowserRouter>
   );
