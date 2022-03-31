@@ -13,51 +13,39 @@ const Home = () => {
       <div className='wrapper'>
         <Card
           img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
+          title='Baseball'
+          place='Shibuya'
+          price='10'
         />
         <Card
           img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
+          title='Football'
+          place='Shinjuku'
+          price='10'
         />
         <Card
           img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
+          title='Table tennis'
+          place='Waseda'
+          price='5'
         />
         <Card
           img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
+          title='Tennis'
+          place='Shakujii Park'
+          price='25'
         />
         <Card
           img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
+          title='Swimming'
+          place='Shinjuku'
+          price='17'
         />
         <Card
           img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
-        />
-        <Card
-          img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
-        />
-        <Card
-          img={`${process.env.PUBLIC_URL}/logo192.png`}
-          title='title'
-          place='place'
-          price='price'
+          title='Badminton'
+          place='Ueno'
+          price='13'
         />
       </div>
 

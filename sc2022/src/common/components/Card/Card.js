@@ -1,5 +1,6 @@
 import './Card.scss'
 
+import { Link } from 'react-router-dom'
 import React from 'react'
 
 const Card = (props) => {
@@ -11,7 +12,7 @@ const Card = (props) => {
                 <h2 className='card_title'>{props.title}</h2>
                 <p className='card_place'>{props.place}</p>
                 <h3 className='card_price'>{props.price}</h3>
-                <button className='card_btn'>Join in</button>
+                <Link to='/map'><button className='card_btn'>Join in</button></Link>
             </div>
         </div>
     </>

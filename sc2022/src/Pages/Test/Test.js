@@ -13,16 +13,44 @@ const Test = () => {
     {
       id: 1,
       img: `${process.env.PUBLIC_URL}/logo192.png`,
-      title: 'Hello, React!',
-      place: 'React始めました',
-      price: '23',
+      title: 'Baseball',
+      place: 'Shibuya',
+      price: '10',
     },
     {
       id: 2,
       img: `${process.env.PUBLIC_URL}/logo192.png`,
-      title: 'Hello, Redux!',
-      place: 'Reduxも始めました',
-      price: '797',
+      title: 'Football',
+      place: 'Shinjuku',
+      price: '10'
+    },
+    {
+      id: 3,
+      img: `${process.env.PUBLIC_URL}/logo192.png`,
+      title: 'Table tennis',
+      place: 'Waseda',
+      price: '5'
+    },
+    {
+      id: 4,
+      img: `${process.env.PUBLIC_URL}/logo192.png`,
+      title: 'Tennis',
+      place: 'Shakujii Park',
+      price: '25'
+    },
+    {
+      id: 5,
+      img: `${process.env.PUBLIC_URL}/logo192.png`,
+      title: 'Swimming',
+      place: 'Shinjuku',
+      price: '17'
+    },
+    {
+      id: 6,
+      img: `${process.env.PUBLIC_URL}/logo192.png`,
+      title: 'Badminton',
+      place: 'Ueno',
+      price: '13'
     },
   ]);
   

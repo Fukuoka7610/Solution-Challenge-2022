@@ -132,6 +132,7 @@ const Form = ({ cards, setCardList }) => {
     setInputPrice('');
   }
   */
+  
 
   const handleChangeTitle = (e) =>{
     setInputTitle(e.target.value);
@@ -147,10 +148,9 @@ const Form = ({ cards, setCardList }) => {
 
   return (
     <div>
-        <NavBar img={`${process.env.PUBLIC_URL}/logo192.png`}/>
         
         <div className='container-form'>
-          <form className='frame'>
+          <form className='frame' onSubmit={ handleSubmit }>
             <p className='title'>Insert an event title here:</p>
             <input 
               className='title-form' 
